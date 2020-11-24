@@ -1,5 +1,5 @@
 .header {
-    background: #385068;
+    background: #42a5f5cc;
     padding-top: 1.6em;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .header .labels .label {
-    background: #333;
+    background: #42a5f5;
     box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.15);
     color: #fff;
     display: inline-block;
@@ -32,12 +32,12 @@
 }
 
 .header .labels .label::before {
-    color: #ddd;
+    color: #eee;
     content: attr(alt);
     font-size: .5em;
     left: 0;
     position: absolute;
-    text-shadow: 2px 2px 4px rgba(0,0,0,.25);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.75);
     top: -1.75em;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .header .labels .label .content {
-    color: #ccc;
+    color: #e3f2fd;
 }
 
 .header .picture {
